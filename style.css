@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    background-color: rgb(164, 247, 168);
+    justify-content: center;
+}
+
+body{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(bg.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.movies{
+    display: flex;
+    justify-content: center;
+    
+} 
+
+.sim{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sim a:link{
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+}
+
+.sim a:visited{
+    color:rgb(255, 255, 255)
+}
+
+.oldy a:link{
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+}
+
+.oldy a:visited{
+    color:rgb(255, 255, 255)
+}
+
+    
+.oldy{
+    font-size: 25px;
+}
